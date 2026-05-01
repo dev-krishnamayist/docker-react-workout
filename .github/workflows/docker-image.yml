@@ -1,4 +1,4 @@
-name: CI/CD â React.js Application with Docker
+name: CI/CD React.js Application with Docker
 
 on:
   push:
@@ -51,7 +51,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: .
-          file: Dockerfile.dev
+          file: dev.dockerfile
           tags: ${{ steps.meta.outputs.REPO_NAME }}-dev:latest
           load: true # Load to local Docker daemon for testing
           cache-from: type=local,src=/tmp/.buildx-cache
