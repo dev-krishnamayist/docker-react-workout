@@ -27,7 +27,7 @@ export const Hero = () => {
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight animate-title-reveal">
           React.js + Docker
           <span className="block bg-gradient-to-r from-[#4facfe] to-[#00f2fe] bg-clip-text text-transparent">
-            Sample Project
+            Sample Project with Docker Compose Watch
           </span>
         </h1>
 
